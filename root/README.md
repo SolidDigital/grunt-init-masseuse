@@ -1,7 +1,11 @@
 {%= description %}
 
 ## Getting Started
-Install node dependenices using, `npm install`.
+Install bower and npm dependencies using:
+
+```shell
+bower install && npm install
+```
 
 ## Documentation
 _(Coming soon)_

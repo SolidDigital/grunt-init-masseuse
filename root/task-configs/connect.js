@@ -10,11 +10,12 @@ module.exports = function(grunt) {
         site : {
             options : {
                 port : 9001,
-                    hostname : 'localhost',
-                    base : './build/',
-                    middleware : function (connect, options) {
+                hostname : 'localhost',
+                base : './app/',
+                middleware : function (connect, options) {
                     return [lrSnippet, folderMount(connect, options.base)];
-                }
+                },
+                open: true
             }
         },
         tests : {

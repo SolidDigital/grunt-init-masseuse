@@ -1,4 +1,7 @@
 {
   "app/name.js": "app/{%= name %}.js",
+  "app/nameView/options.js": "app/{%= name %}View/options.js",
+  "app/nameView/template.html": "app/{%= name %}View/template.html",
+  "app/nameView/view.js": "app/{%= name %}View/view.js",
   "test/nameTests.js": "test/{%= name %}Tests.js"
 }
