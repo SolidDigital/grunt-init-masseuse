@@ -2,6 +2,19 @@
 module.exports = function(grunt) {
     'use strict';
     grunt.config('watch', {
+        site : {
+            options : {
+                // Start a live reload server on the default port: 35729
+                livereload : true
+            },
+            files : [
+                'app/**/*.js',
+                '!app/vendor/**'
+            ],
+            tasks : [
+                'jshint'
+            ]
+        },
         tests : {
             options : {
                 // Start a live reload server on the default port: 35729
@@ -9,8 +22,6 @@ module.exports = function(grunt) {
             },
             files : [
                 'tests/**/*.js',
-                'app/**/*.js',
-                '!app/vendor/**'
             ],
             tasks : [
                 'jshint'

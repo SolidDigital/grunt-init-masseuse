@@ -2,5 +2,5 @@
 module.exports = function(grunt) {
     'use strict';
 
-    grunt.registerTask('server', ['jshint', 'connect:site']);
+    grunt.registerTask('server', ['jshint', 'connect:site', 'watch:site']);
 };

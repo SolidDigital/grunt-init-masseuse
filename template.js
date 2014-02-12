@@ -55,6 +55,7 @@
                 'grunt-contrib-jshint': '0.8.0',
                 'grunt-contrib-livereload': '0.1.2',
                 'grunt-contrib-requirejs': '0.4.1',
+                'grunt-contrib-watch': '0.5.3',
                 'grunt-shell': '0.6.4',
                 'matchdep': '0.3.0',
                 'mocha-phantomjs': '3.3.1'

@@ -3,9 +3,9 @@
 
     require.config({
         paths : {
-            jquery : 'app/vendor/jquery/jquery',
-            rivets : 'app/vendor/rivets/dist/rivets',
-            backbone : 'app/vendor/backbone-amd/backbone',
+            jquery : 'vendor/jquery/jquery',
+            rivets : 'vendor/rivets/dist/rivets',
+            backbone : 'vendor/backbone-amd/backbone',
             text : 'vendor/requirejs-text/text'
         },
         packages : [
