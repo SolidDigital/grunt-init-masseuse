@@ -1,14 +1,7 @@
-# {%= name %}{% if (travis) { %} [![Build Status](https://secure.travis-ci.org/{%= git_user %}/{%= git_repo %}.png?branch=master)](http://travis-ci.org/{%= git_user %}/{%= git_repo %}){% } %}
-
 {%= description %}
 
 ## Getting Started
-Install the module with: `npm install {%= name %}`
-
-```javascript
-var {%= js_safe_name %} = require('{%= name %}');
-{%= js_safe_name %}.awesome(); // "awesome"
-```
+Install node dependenices using, `npm install`.
 
 ## Documentation
 _(Coming soon)_
