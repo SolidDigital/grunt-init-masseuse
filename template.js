@@ -48,26 +48,16 @@
         ], function(err, props) {
             props.keywords = [];
             props.devDependencies = {
-                'grunt': '~0.4.1',
-                'grunt-contrib-watch': '~0.4.4',
-                'grunt-contrib-livereload': '~0.1.2',
-                'mocha': '~1.12.0',
-                'chai': '~1.7.2',
-                'matchdep': '~0.1.2',
-                'grunt-contrib-connect': '~0.5.0',
-                'grunt-shell': '~0.2.2',
-                'grunt-build-gh-pages': '0.1.1',
-                'grunt-contrib-copy': '~0.4.1',
-                'grunt-requirejs': '~0.4.0',
-                'grunt-contrib-sass': '~0.5.0',
-                'rivets': '~0.5.12',
-                'grunt-contrib-jshint': '0.2.0',
-                'grunt-usemin': '~0.1.12',
-                'grunt-contrib-clean': '~0.4.1',
-                'grunt-contrib-uglify': '0.2.0',
-                'grunt-contrib-concat': '~0.1.2',
-                'grunt-autoprefixer': '~0.4.0',
-                'grunt-prompt': '~0.1.2'
+                'grunt': '0.4.2',
+                'grunt-build-gh-pages': '0.1.7',
+                'grunt-contrib-clean': '0.5.0',
+                'grunt-contrib-connect': '0.6.0',
+                'grunt-contrib-jshint': '0.8.0',
+                'grunt-contrib-livereload': '0.1.2',
+                'grunt-contrib-requirejs': '0.4.1',
+                'grunt-shell': '0.6.4',
+                'matchdep': '0.3.0',
+                'mocha-phantomjs': '3.3.1'
             };
 
             // Files to copy (and process).
