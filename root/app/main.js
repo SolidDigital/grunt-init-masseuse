@@ -23,6 +23,6 @@
     require([
         '{%= name %}View/view'
     ], function ({%= name %}View) {
-        {%= name %}View.start();
+        new {%= name %}View().start();
     });
 }());

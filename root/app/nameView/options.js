@@ -1,9 +1,10 @@
-define(['text!app/{%= name %}View/template.html'], function (template) {
+define(['text!{%= name %}View/template.html'], function (template) {
     'use strict';
 
     return {
         appendTo : 'body',
         template : template,
+        rivetsInstaUpdate : true,
         modelData : {
             title : 'Hello world!'
         }

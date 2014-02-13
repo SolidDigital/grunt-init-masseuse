@@ -1,7 +1,7 @@
-define(['masseuse', 'app/{%= name %}View/options'], function(masseuse, options) {
+define(['masseuse', '{%= name %}View/options'], function(masseuse, options) {
     'use strict';
 
-    return masseuse.RivetsView.extend({
+    return masseuse.plugins.rivets.RivetsView.extend({
         defaultOptions :  options
     });
 });
