@@ -5,7 +5,9 @@
 [grunt-init]: http://gruntjs.com/project-scaffolding
 
 ## Installation
-If you haven't already done so, install [grunt-init](http://gruntjs.com/project-scaffolding).
+If you haven't already done so, install [grunt-init](http://gruntjs.com/project-scaffolding)
+(and [node](http://nodejs.org/)/[nvm](https://github.com/creationix/nvm),
+[grunt-cli](http://gruntjs.com/getting-started), and [bower](http://bower.io/)).
 
 Once grunt-init is installed, place this template in your `~/.grunt-init/` directory. It's recommended that you use git
 to clone this template into that directory, as follows:
