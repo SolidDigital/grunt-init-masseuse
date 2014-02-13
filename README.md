@@ -1,6 +1,6 @@
 # grunt-new-app
 
-> Create a new [masseuse]() app with [grunt-init](http://gruntjs.com/project-scaffolding), including Mocha unit tests.
+> Create a new [masseuse](http://solid-interactive.github.io/masseuse/docs/) app with [grunt-init](http://gruntjs.com/project-scaffolding), including a demo view.
 
 [grunt-init]: http://gruntjs.com/project-scaffolding
 

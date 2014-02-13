@@ -35,7 +35,7 @@
             },
             {
                 name : 'masseuse',
-                location : '../app'
+                location : '../app/vendor/masseuse/app'
             }
         ]
     });
