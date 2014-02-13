@@ -1,3 +1,5 @@
+# {%= name %}
+
 {%= description %}
 
 ## Getting Started
@@ -6,6 +8,8 @@ Install bower and npm dependencies using:
 ```shell
 bower install && npm install
 ```
+
+Then you probably want to commit the bower dependencies.
 
 ## Documentation
 _(Coming soon)_

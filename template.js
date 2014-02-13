@@ -1,6 +1,6 @@
 /*globals exports:false*/
 /*
- * grunt-new-app
+ * grunt-init-masseuse
  * https://gruntjs.com/
  *
  * Copyright (c) 2013 Peter Ajtai, SOLID Interactive
@@ -17,8 +17,9 @@
 
 // Template-specific notes to be displayed after question prompts.
     exports.after = 'You should now install project dependencies with _npm ' +
-        'install_. Then install browser dpendencies with _bower install_. ' +
-        'After that, you may execute project tasks with _grunt_. For ' +
+        'install_. Then install browser dpendencies with _bower install_. \n\n' +
+        'After that, use _grunt server_ to open the app in your browser. \n\n' +
+        'For ' +
         'more information about installing and configuring Grunt, please see ' +
         'the Getting Started guide:' +
         '\n\n' +

@@ -22,7 +22,7 @@
 
     require([
         '{%= name %}View/view'
-    ], function ({%= name %}View) {
-        new {%= name %}View().start();
+    ], function ({%= name.charAt(0).toUpperCase() + name.replace(/[-.]/g,'').slice(1) %}View) {
+        new {%= name.charAt(0).toUpperCase() + name.replace(/[-.]/g,'').slice(1) %}View().start();
     });
 }());
