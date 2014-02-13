@@ -1,11 +1,11 @@
 # grunt-new-app
 
-> Create a new SOLID app with [grunt-init][], including Mocha unit tests.
+> Create a new [masseuse]() app with [grunt-init](http://gruntjs.com/project-scaffolding), including Mocha unit tests.
 
 [grunt-init]: http://gruntjs.com/project-scaffolding
 
 ## Installation
-If you haven't already done so, install [grunt-init][].
+If you haven't already done so, install [grunt-init](http://gruntjs.com/project-scaffolding).
 
 Once grunt-init is installed, place this template in your `~/.grunt-init/` directory. It's recommended that you use git
 to clone this template into that directory, as follows:
@@ -14,7 +14,7 @@ to clone this template into that directory, as follows:
 git clone git@github.com:Solid-Interactive/grunt-init-masseuse.git ~/.grunt-init/masseuse
 ```
 
-_(Windows users, see [the documentation][grunt-init] for the correct destination directory path)_
+_(Windows users, see [the documentation](http://gruntjs.com/project-scaffolding) for the correct destination directory path)_
 
 ## Usage
 
