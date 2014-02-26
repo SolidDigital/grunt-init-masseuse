@@ -61,7 +61,7 @@
                 'grunt-contrib-watch': '0.5.3',
                 'grunt-shell': '0.6.4',
                 'matchdep': '0.3.0',
-                'release-notes' : '1.0.0',
+                'grunt-release-notes' : '0.1.0',
                 'mocha-phantomjs': '3.3.1'
             };
 
