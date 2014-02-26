@@ -7,7 +7,8 @@ module.exports = function (grunt) {
 
     // Project configuration.
     grunt.initConfig({
-        pkg : grunt.file.readJSON('package.json')
+        pkg : grunt.file.readJSON('package.json'),
+        warning : { readme : 'Compiled file. Do not edit directly. '}
     });
 
     grunt.loadTasks('task-configs');
