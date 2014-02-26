@@ -3,5 +3,6 @@
   "app/nameView/options.js": "app/{%= name %}View/options.js",
   "app/nameView/template.html": "app/{%= name %}View/template.html",
   "app/nameView/view.js": "app/{%= name %}View/view.js",
+  "release_notes/0.0.0.md" : "release_notes/0.0.0_{%= grunt.template.today('yyyy-mm-dd') %}.md",
   "tests/nameTests.js": "tests/{%= name %}Tests.js"
 }

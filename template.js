@@ -5,12 +5,14 @@
  *
  * Copyright (c) 2013 Peter Ajtai, SOLID Interactive
  * Licensed under the MIT license.
+ *
+ * v0.1.0
  */
 (function() {
     'use strict';
 
 // Basic template description.
-    exports.description = 'Create a new app, including Mocha unit tests.';
+    exports.description = 'Create a masseuse app, including Mocha unit tests.';
 
 // Template-specific notes to be displayed before question prompts.
     exports.notes = 'Make sure to review the generate files after initializing.';
@@ -50,7 +52,7 @@
             props.keywords = [];
             props.devDependencies = {
                 'grunt': '0.4.2',
-                'grunt-build-gh-pages': '0.1.7',
+                'grunt-build-gh-pages': '1.0.1',
                 'grunt-contrib-clean': '0.5.0',
                 'grunt-contrib-connect': '0.6.0',
                 'grunt-contrib-jshint': '0.8.0',
@@ -59,6 +61,7 @@
                 'grunt-contrib-watch': '0.5.3',
                 'grunt-shell': '0.6.4',
                 'matchdep': '0.3.0',
+                'release-notes' : '1.0.0',
                 'mocha-phantomjs': '3.3.1'
             };
 
