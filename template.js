@@ -59,6 +59,7 @@
                 'grunt-contrib-livereload': '0.1.2',
                 'grunt-contrib-requirejs': '0.4.1',
                 'grunt-contrib-watch': '0.5.3',
+                'grunt-contrib-copy': '0.5.0',
                 'grunt-shell': '0.6.4',
                 'matchdep': '0.3.0',
                 'grunt-release-notes' : '0.1.0',
