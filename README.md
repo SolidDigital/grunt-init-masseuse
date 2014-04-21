@@ -18,6 +18,12 @@ git clone git@github.com:Solid-Interactive/grunt-init-masseuse.git ~/.grunt-init
 
 _(Windows users, see [the documentation](http://gruntjs.com/project-scaffolding) for the correct destination directory path)_
 
+## Notes
+
+This template is setup to create a one page [masseuse](https://github.com/Solid-Interactive/masseuse) web app.
+To provide flexibility project is stored in the `app` directory but served from the `build` directory.
+Feel free to customize to your needs.
+
 ## Usage
 
 At the command-line, cd into an empty directory, run this command and follow the prompts.

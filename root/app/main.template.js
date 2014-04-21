@@ -1,13 +1,7 @@
-(function () {
+(function (require) {
     'use strict';
 
     require.config({
-        paths : {
-            jquery : 'vendor/jquery/dist/jquery',
-            rivets : 'vendor/rivets/dist/rivets',
-            backbone : 'vendor/backbone-amd/backbone',
-            text : 'vendor/requirejs-text/text'
-        },
         packages : [
             {
                 name : 'underscore',
@@ -18,6 +12,7 @@
                 location : 'vendor/masseuse/app'
             }
         ]
+        // <%= paths %>
     });
 
     require([
@@ -25,4 +20,4 @@
     ], function ({%= name.charAt(0).toUpperCase() + name.replace(/[-.]/g,'').slice(1) %}View) {
         new {%= name.charAt(0).toUpperCase() + name.replace(/[-.]/g,'').slice(1) %}View().start();
     });
-}());
+}(require));

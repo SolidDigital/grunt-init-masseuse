@@ -11,8 +11,6 @@ module.exports = function (grunt) {
         warning : { readme : 'Compiled file. Do not edit directly. '}
     });
 
-    grunt.loadTasks('task-configs');
-    grunt.loadTasks('tasks');
-
-    grunt.registerTask('deploy', ['copy:app', 'buildGhPages:ghPages']);
+    grunt.loadTasks('grunt/configs');
+    grunt.loadTasks('grunt/tasks');
 };

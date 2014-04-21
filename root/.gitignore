@@ -5,3 +5,5 @@ desktop.ini
 *npm-debug*
 build
 .sass-cache
+app/main.js
+tests/main.js

@@ -51,15 +51,16 @@
         ], function(err, props) {
             props.keywords = [];
             props.devDependencies = {
-                'grunt': '0.4.2',
-                'grunt-build-gh-pages': '1.0.1',
+                'grunt': '0.4.4',
+                'grunt-build-gh-pages': '1.0.3',
                 'grunt-contrib-clean': '0.5.0',
-                'grunt-contrib-connect': '0.6.0',
+                'grunt-contrib-connect': '0.7.1',
                 'grunt-contrib-jshint': '0.8.0',
                 'grunt-contrib-livereload': '0.1.2',
                 'grunt-contrib-requirejs': '0.4.1',
                 'grunt-contrib-watch': '0.5.3',
                 'grunt-contrib-copy': '0.5.0',
+                'grunt-requirejs-paths': '0.1.0',
                 'grunt-shell': '0.6.4',
                 'matchdep': '0.3.0',
                 'grunt-release-notes' : '0.1.0',

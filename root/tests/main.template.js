@@ -1,5 +1,5 @@
 /*globals mochaPhantomJS:false*/
-(function () {
+(function (require) {
     'use strict';
 
 // Require.js allows us to configure shortcut alias
@@ -16,32 +16,23 @@
                 exports : 'sinonSpy'
             }
         },
-        paths : {
-            jquery : '../app/vendor/jquery/jquery',
-            rivets : '../app/vendor/rivets/dist/rivets',
-            backbone : '../app/vendor/backbone-amd/backbone',
-            text : '../app/vendor/requirejs-text/text',
-            mocha : '../app/vendor/mocha/mocha',
-            chai : '../app/vendor/chai/chai',
-            sinon : '../app/vendor/sinon/lib/sinon',
-            sinonSpy : '../app/vendor/sinon/lib/sinon/spy',
-            sinonChai : '../app/vendor/sinon-chai/lib/sinon-chai',
-            sinonCall : '../app/vendor/sinon/lib/sinon/call'
-        },
         packages : [
             {
                 name : 'underscore',
-                location : '../app/vendor/lodash-amd/underscore'
+                location : '../vendor/lodash-amd/underscore'
             },
             {
                 name : 'masseuse',
-                location : '../app/vendor/masseuse/app'
+                location : '../vendor/masseuse/app'
             }
         ]
+        // <%= paths %>
     });
 
     require([
-        'mocha'
+        'mocha',
+        // .. needed to deal w paths aliases
+        '../tests/{%= name %}View/viewTests'
     ], function (mocha) {
         if (typeof mochaPhantomJS !== 'undefined') {
             mochaPhantomJS.run();
@@ -49,4 +40,4 @@
             mocha.run();
         }
     });
-}());
+}(require));
