@@ -1,4 +1,4 @@
-# grunt-new-app - v2
+# grunt-new-app - v3
 
 > Create a new [masseuse](http://solid-interactive.github.io/masseuse/docs/) app with [grunt-init](http://gruntjs.com/project-scaffolding), including a demo view.
 
@@ -35,9 +35,13 @@ grunt-init masseuse
 _Note that this template will generate files in the current directory, so be sure to change to a new directory first if
 you don't want to overwrite existing files._
 
-After the files are generated, you are ready to install the dependencies (`npm install -g bower` if you haven't already):
+After the files are generated, you are ready to install the dependencies:
 
 ```
+# global dependencies (if not yet installed)
+npm install -g grunt-cli bower phantomjs mocha-phantomjs
+
+# project dependencies
 npm install && bower install
 ```
 
