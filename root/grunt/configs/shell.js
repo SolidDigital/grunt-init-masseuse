@@ -9,7 +9,7 @@ module.exports = function(grunt) {
                 stderr : true,
                 failOnError : true
             },
-            command : 'mocha-phantomjs tests/index.html'
+            command : 'mocha-phantomjs build/tests/index.html'
         }
     });
 };
