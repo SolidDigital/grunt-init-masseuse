@@ -8,8 +8,9 @@ module.exports = function(grunt) {
                 livereload : true
             },
             files : [
-                'build/**/*.js',
-                '!build/vendor/**'
+                'app/**/*.js',
+                'app/**/*.html',
+                '!app/vendor/**'
             ],
             tasks : [
                 'jshint',

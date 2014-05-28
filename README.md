@@ -1,4 +1,4 @@
-# grunt-new-app - v4
+# grunt-new-app - v5
 
 > Create a new [masseuse](http://solid-interactive.github.io/masseuse/docs/) app with [grunt-init](http://gruntjs.com/project-scaffolding), including a demo view.
 
