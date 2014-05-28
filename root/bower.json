@@ -1,7 +1,7 @@
 {
     "name": "{%= name %}",
     "dependencies": {
-        "masseuse" : "2.2.1",
+        "masseuse" : "2.2.4",
         "requirejs-text": "2.0.12"
     },
     "devDependencies": {
