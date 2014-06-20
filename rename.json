@@ -1,9 +1,9 @@
 {
-  "app/name.js": "app/{%= name %}.js",
-  "app/nameView/options.js": "app/{%= name %}View/options.js",
-  "app/nameView/template.html": "app/{%= name %}View/template.html",
-  "app/nameView/view.js": "app/{%= name %}View/view.js",
-  "release_notes/0.0.0.md" : "release_notes/0.0.0_{%= grunt.template.today('yyyy-mm-dd') %}.md",
-  "tests/nameTests.js": "tests/{%= name %}Tests.js",
-  "tests/nameView/viewTests.js": "tests/{%= name %}View/viewTests.js"
+  "app/name.js"                     : "app/{%= name %}.js",
+  "app/views/name/options.js"       : "app/views/{%= name %}/options.js",
+  "app/views/name/template.html"    : "app/views/{%= name %}/template.html",
+  "app/views/name/view.js"          : "app/views/{%= name %}/view.js",
+  "release_notes/0.0.0.md"          : "release_notes/0.0.0_{%= grunt.template.today('yyyy-mm-dd') %}.md",
+  "tests/nameTests.js"              : "tests/{%= name %}Tests.js",
+  "tests/nameView/viewTests.js"     : "tests/{%= name %}View/viewTests.js"
 }

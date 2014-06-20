@@ -6,6 +6,6 @@
         "text" : "vendor/requirejs-text/text"
     },
     "views" : {
-        "{%= name %}View" : "{%= name %}View"
+        "{%= name %}" : "views/{%= name %}"
     }
 }

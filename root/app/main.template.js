@@ -16,7 +16,7 @@
     });
 
     require([
-        '{%= name %}View/view'
+        '{%= name %}/view'
     ], function ({%= name.charAt(0).toUpperCase() + name.replace(/[-.]/g,'').slice(1) %}View) {
         new {%= name.charAt(0).toUpperCase() + name.replace(/[-.]/g,'').slice(1) %}View().start();
     });
