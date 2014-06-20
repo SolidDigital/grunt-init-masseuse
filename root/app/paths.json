@@ -1,4 +1,8 @@
 {
+    "routers" : {
+        "loadMainContent" : "routers/loadMainContent",
+        "routers" : "routers"
+    },
     "vendor" : {
         "jquery" : "vendor/jquery/dist/jquery",
         "rivets" : "vendor/rivets/dist/rivets",

@@ -16,8 +16,10 @@
     });
 
     require([
-        '{%= name %}/view'
-    ], function ({%= name.charAt(0).toUpperCase() + name.replace(/[-.]/g,'').slice(1) %}View) {
-        new {%= name.charAt(0).toUpperCase() + name.replace(/[-.]/g,'').slice(1) %}View().start();
+        'backbone',
+        'routers/primary'
+    ], function (Backbone, PrimaryRouter) {
+        new PrimaryRouter();
+        Backbone.history.start();
     });
 }(require));
