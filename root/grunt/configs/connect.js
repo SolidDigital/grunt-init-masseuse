@@ -1,4 +1,4 @@
-/*globals module:true */
+/*jshint node:true */
 module.exports = function (grunt) {
     'use strict';
     var path = require('path'),
@@ -22,7 +22,7 @@ module.exports = function (grunt) {
             options : {
                 port : 9001,
                 hostname : 'localhost',
-                base : './build/public',
+                base : './build',
                 middleware : function (connect, options) {
                     return [lrSnippet, folderMount(connect, options.base)];
                 },

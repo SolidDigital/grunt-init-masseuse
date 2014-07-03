@@ -3,7 +3,7 @@ define([
         'mocha',
         'sinon',
         'sinonChai',
-        '{%= name %}View/view',
+        '{%= name %}/view',
         'sinonSpy'
     ],
     function (chai, mocha, sinon, sinonChai, {%= name.charAt(0).toUpperCase() + name.replace(/[-.]/g,'').slice(1) %}View) {

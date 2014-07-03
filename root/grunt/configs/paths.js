@@ -1,4 +1,4 @@
-/*globals module:true*/
+/*jshint node:true */
 module.exports = function(grunt) {
     'use strict';
     grunt.config.set('paths', {
@@ -6,14 +6,14 @@ module.exports = function(grunt) {
             options : {
                 pathsJson : 'app/paths.json',
                 mainTemplate : 'app/public/main.template.js',
-                main : 'app/main.js',
+                main : 'app/public/main.js',
                 prefixComma : true
             }
         },
         tests : {
             options : {
                 pathsJson : ['app/paths.json', 'tests/paths.json'],
-                pathsPrefix : '../public',
+                pathsPrefix : '../public/',
                 mainTemplate : 'tests/main.template.js',
                 main : 'tests/main.js',
                 prefixComma : true

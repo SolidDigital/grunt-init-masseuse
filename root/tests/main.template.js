@@ -32,7 +32,7 @@
     require([
         'mocha',
         // .. needed to deal w paths aliases
-        '../tests/{%= name %}View/viewTests'
+        '../tests/{%= name %}/viewTests'
     ], function (mocha) {
         if (typeof mochaPhantomJS !== 'undefined') {
             mochaPhantomJS.run();
