@@ -1,9 +1,9 @@
-.idea
+.idea/*
 .DS_Store
 desktop.ini
-*node_modules*
+node_modules/*
 *npm-debug*
-build
+build/*
 .sass-cache
-app/main.js
+app/public/main.js
 tests/main.js

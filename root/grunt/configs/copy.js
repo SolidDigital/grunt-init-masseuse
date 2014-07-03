@@ -10,7 +10,19 @@ module.exports = function (grunt) {
                     src : [
                         '**',
                         '!paths.json',
-                        '!main.template.json'
+                        '!public/main.template.json'
+                    ],
+                    dest : 'build/'
+                }
+            ]
+        },
+        pkg : {
+            files : [
+                {
+                    expand : true,
+                    cwd : './',
+                    src : [
+                        'package.json'
                     ],
                     dest : 'build/'
                 }
@@ -24,7 +36,7 @@ module.exports = function (grunt) {
                     src : [
                         '**',
                         '!paths.json',
-                        '!main.template.json'
+                        '!public/main.template.json'
                     ],
                     dest : 'build/tests/'
                 }

@@ -46,25 +46,31 @@
             init.prompt('author_email', 'postmaster@thinksolid.com'),
             init.prompt('author_url', 'http://thinksolid.com'),
             init.prompt('node_version', '>= 0.8.19'),
-            init.prompt('main'),
-            init.prompt('npm_test', 'grunt test')
+            init.prompt('main', 'index.js'),
+            init.prompt('npm_test', 'grunt test'),
         ], function(err, props) {
-            props.keywords = [];
+            props.keywords = ['masseuse'];
+            props.dependencies = {
+                'express': '4.4.5'
+            };
+            props.scripts = {
+                'start': 'node index.js'
+            };
             props.devDependencies = {
-                'grunt': '0.4.4',
+                'grunt': '0.4.5',
                 'grunt-build-gh-pages': '1.0.3',
                 'grunt-contrib-clean': '0.5.0',
                 'grunt-contrib-connect': '0.7.1',
-                'grunt-contrib-jshint': '0.8.0',
+                'grunt-contrib-jshint': '0.10.0',
                 'grunt-contrib-livereload': '0.1.2',
-                'grunt-contrib-requirejs': '0.4.1',
-                'grunt-contrib-watch': '0.5.3',
+                'grunt-contrib-requirejs': '0.4.4',
+                'grunt-contrib-watch': '0.6.1',
                 'grunt-contrib-copy': '0.5.0',
-                'grunt-requirejs-paths': '0.1.0',
-                'grunt-shell': '0.6.4',
+                'grunt-requirejs-paths': '0.1.2',
+                'grunt-shell': '0.7.0',
                 'matchdep': '0.3.0',
-                'grunt-release-notes' : '0.1.0',
-                'mocha-phantomjs': '3.3.1'
+                'grunt-release-notes' : '0.1.1',
+                'mocha-phantomjs': '3.5.0'
             };
 
             // Files to copy (and process).

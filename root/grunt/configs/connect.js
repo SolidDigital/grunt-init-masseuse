@@ -11,7 +11,7 @@ module.exports = function (grunt) {
             options : {
                 port : 9001,
                 hostname : 'localhost',
-                base : './build/',
+                base : './build/public',
                 middleware : function (connect, options) {
                     return [lrSnippet, folderMount(connect, options.base)];
                 },
@@ -22,7 +22,7 @@ module.exports = function (grunt) {
             options : {
                 port : 9001,
                 hostname : 'localhost',
-                base : './build/',
+                base : './build/public',
                 middleware : function (connect, options) {
                     return [lrSnippet, folderMount(connect, options.base)];
                 },

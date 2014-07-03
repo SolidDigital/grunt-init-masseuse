@@ -1,4 +1,4 @@
-/*globals module:true */
+/*jhint
 module.exports = function (grunt) {
     'use strict';
 

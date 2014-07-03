@@ -3,6 +3,9 @@ module.exports = function (grunt) {
     'use strict';
     grunt.registerTask('deploy', [
         'paths:app',
-        'buildGhPages:ghPages'
+        'copy:app',
+        'copy:pkg',
+        'buildGhPages:staging',
+        'shell:deployHeroku'
     ]);
 };

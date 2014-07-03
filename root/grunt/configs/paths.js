@@ -5,7 +5,7 @@ module.exports = function(grunt) {
         app : {
             options : {
                 pathsJson : 'app/paths.json',
-                mainTemplate : 'app/main.template.js',
+                mainTemplate : 'app/public/main.template.js',
                 main : 'app/main.js',
                 prefixComma : true
             }
@@ -13,7 +13,7 @@ module.exports = function(grunt) {
         tests : {
             options : {
                 pathsJson : ['app/paths.json', 'tests/paths.json'],
-                pathsPrefix : '../',
+                pathsPrefix : '../public',
                 mainTemplate : 'tests/main.template.js',
                 main : 'tests/main.js',
                 prefixComma : true
