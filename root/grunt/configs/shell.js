@@ -17,7 +17,7 @@ module.exports = function(grunt) {
                 stderr : true,
                 failOnError : true
             },
-            command : 'git push heroku stage:master'
+            command : 'git push heroku staging:master'
         }
     });
 };
