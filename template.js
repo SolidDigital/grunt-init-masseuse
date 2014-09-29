@@ -36,6 +36,7 @@
         init.process({type: 'node'}, [
             // Prompt for these values.
             init.prompt('name'),
+            init.prompt('baseUrl'),
             init.prompt('description'),
             init.prompt('version'),
             init.prompt('repository'),

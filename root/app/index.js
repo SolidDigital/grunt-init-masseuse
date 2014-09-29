@@ -7,4 +7,7 @@ var express = require('express'),
     PORT = process.env.PORT || 3000;
 
 expressApp.use(express.static(publicDir));
+expressApp.get('{%= baseUrl.replace(/\/$/,"") %}*?', function(request, response) {
+    response.sendfile('{%= publicIndexDir %}index.html', {'root' : __dirname + '/../'});
+});
 expressApp.listen(PORT);
